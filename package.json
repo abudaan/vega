@@ -74,14 +74,14 @@
     "vega-projection": "1",
     "vega-runtime": "2",
     "vega-scale": "^2.1",
-    "vega-scenegraph": "2",
+    "vega-scenegraph": "https://github.com/abudaan/vega-scenegraph",
     "vega-statistics": "^1.2",
     "vega-transforms": "^1.1",
     "vega-util": "^1.6",
     "vega-view": "2",
     "vega-view-transforms": "^1.1",
     "vega-voronoi": "2",
-    "vega-wordcloud": "2",
+    "vega-wordcloud": "https://github.com/abudaan/vega-wordcloud",
     "yargs": "4"
   },
   "devDependencies": {
