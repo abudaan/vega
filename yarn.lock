@@ -2338,6 +2338,17 @@ vega-scenegraph@2:
     canvas "^1.6"
     canvas-prebuilt "^1.6"
 
+"vega-scenegraph@https://github.com/abudaan/vega-scenegraph":
+  version "2.0.3"
+  resolved "https://github.com/abudaan/vega-scenegraph#6c08afb502266f8c84e7637a224213a096031299"
+  dependencies:
+    d3-path "1"
+    d3-shape "1"
+    vega-loader "2"
+    vega-util "^1.1"
+  optionalDependencies:
+    canvas "^1.6"
+
 vega-statistics@^1.2:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/vega-statistics/-/vega-statistics-1.2.1.tgz#a35b3fc3d0039f8bb0a8ba1381d42a1df79ecb34"
@@ -2384,9 +2395,9 @@ vega-voronoi@2:
     vega-dataflow "3"
     vega-util "1"
 
-vega-wordcloud@2:
+"vega-wordcloud@https://github.com/abudaan/vega-wordcloud":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/vega-wordcloud/-/vega-wordcloud-2.0.2.tgz#853be1b1492ba749001e5483be30380662ff2c59"
+  resolved "https://github.com/abudaan/vega-wordcloud#3184371fbfb7e4ae2e771f7a23a5809de58d45c9"
   dependencies:
     vega-dataflow "3"
     vega-scale "2"
@@ -2394,7 +2405,6 @@ vega-wordcloud@2:
     vega-util "1"
   optionalDependencies:
     canvas "^1.6"
-    canvas-prebuilt "^1.6"
 
 verror@1.10.0:
   version "1.10.0"
